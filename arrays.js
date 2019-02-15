@@ -1,8 +1,7 @@
 var chocolateBars = ['snickers', 'hundred', 'grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(array, element){
-  var list2 = array.unshift(element)
-  return list2
+  return array.unshift(element)
 }
 
 function destructivelyaddElementToEndOfArray(list1, e) {
